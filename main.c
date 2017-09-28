@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------------------
 + Project	:	testLeandro
 + File		:	main
-+ Author	:	Jonas Vieira de Souza
++ Author	:	Cliente
 + Created	:	7/5/2016 1:01:51 AM
 + Modified	:
 + Version	:
@@ -131,7 +131,7 @@ void umidLed( uint16 rawAdc )
 		lowLeds();
 		setBit(LEDS_PORT, LED_YELLOW_BIT);
 	}
-	if (rawAdc > 800 && rawAdc < 1024){ //Solo seco, acende led vermelho e chama função para irrigação
+	if (rawAdc > 800 && rawAdc < 1024){ //Solo seco, acende led vermelho e chama funÃ§Ã£o para irrigaÃ§Ã£o
 		lowLeds();
 		setBit(LEDS_PORT, LED_RED_BIT);
 		setBit(RELE_1_PORT, RELE_1_BIT);
